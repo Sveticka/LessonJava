@@ -11,7 +11,10 @@ public class GithubLesson {
             System.out.println(Count2(5));
             System.out.println(Count2(-2));
             System.out.println(Count2(19));
-            System.out.println (CountSin (45));
+            System.out.println(CountSin (45));
+            System.out.println(Treugolnik(3,4, 90));
+            System.out.println(Treugolnik(12,15,90);
+            System.out.println(Treugolnik (15,16,180);
     }
     public static int symma2 (int a, int b) {
         int c = a+b;
@@ -37,6 +40,12 @@ public class GithubLesson {
      5. Вызвать функцию в мейне из первого задания для значений 7 и  8 и вывести результат, 9 и 10 и вывести результат.
      6. Вызвать функцию в мейне из второго задания для значений 5, -2, 19 и вывести результаты.
      7. Вызвать функцию в мейне из третьего задания для угла 45 градусов и вывести результат.
+
+     8. Написать функцию расчета третьей стороны треугольника по двум другим и углу между ними
+     double triC (double a, double b, double angle)....
+     9. Вывести 8е задание на экран со значениями 3, 4, 90 = 5
+     10. Вывести 8е задание на экран со значениями  12, 5, 90 = 13
+     11. Вывести 8е задание на экран со значениями  15? 16? 180 = 31
      */
 
     public static double Pryamougolnik (double A, double B) {
@@ -54,5 +63,8 @@ public class GithubLesson {
         return y;
     }
 
-
+    public static double Treugolnik (double a, double b, int Angle) {
+        double c = Math.sqrt (Math.pow (a,2) + Math.pow (b,2) - 2*a*b*Math.cos(Math.toRadians(Angle)));
+        return c;
+    }
 }
