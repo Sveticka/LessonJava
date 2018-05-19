@@ -13,8 +13,8 @@ public class GithubLesson {
             System.out.println(Count2(19));
             System.out.println(CountSin (45));
             System.out.println(Treugolnik(3,4, 90));
-            System.out.println(Treugolnik(12,15,90);
-            System.out.println(Treugolnik (15,16,180);
+            System.out.println(Treugolnik(12,5,90));
+            System.out.println(Treugolnik (15,16,180));
     }
     public static int symma2 (int a, int b) {
         int c = a+b;
