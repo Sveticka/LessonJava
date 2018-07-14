@@ -74,6 +74,7 @@ public class Lesson11_14July2018 {
     public static void sliceStr1 (String a) {
         String Cut_a_half = a.substring(a.length()/2);
         System.out.println(Cut_a_half);
+        System.out.println(a.substring(0,a.length()/2));
     }
 
 
